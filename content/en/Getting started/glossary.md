@@ -7,20 +7,17 @@ description: >
 ---
 
 {{% pageinfo %}}
-This is a placeholder page. Replace it with your own content.
+The [Internet Security Glossary](https://datatracker.ietf.org/doc/html/rfc4949#section-4) includes
+terms defined by the Internet Engineering Task Force. Use this glossary to supplement your knowledge.
 {{% /pageinfo %}}
+
 
 ## Asset
 
 For pentesting, an asset is a software component of value. Cobalt can perform pentests on assets in the
 following categories:
 
-- Web apps
-- External networks
-- Internal networks
-- Mobile apps
-- APIs
-- Cloud configuration (AWS, Azure, GCP)
+{{% asset-categories %}}
 
 ## Second Header 2
 

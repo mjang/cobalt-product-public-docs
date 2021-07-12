@@ -3,7 +3,7 @@ title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
 description: >
-  Information to help end-users visualize their journey with Cobalt.
+  How to get started with Cobalt software.
 ---
 
 {{% pageinfo %}}
@@ -22,4 +22,4 @@ If you've already purchased Cobalt, use this document to start your journey.
 While it's helpful if you have a background as a developer, it's not required to understand
 the pentest process. 
 
-If the language of software security confuses you, refer to our [Glossary].
+If the language of software security confuses you, refer to our [Glossary](./glossary).
