@@ -15,4 +15,10 @@ For each asset, we include guidance in our UI for each of the following asset ca
 <!-- Pulls info from the layouts/shortcodes/<name>.html file --> 
 {{% asset-categories %}}
 
-You'll want to collect relevant information for each of your assets
+Collect relevant information for each of your assets. For each asset category,
+you can find a scoping guide in the UI.
+
+Need to add
+- Screenshots
+- Figure out how to pull from cobalt-app-web (possibly through submodule)
+
