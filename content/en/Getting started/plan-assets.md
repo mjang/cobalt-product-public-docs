@@ -94,5 +94,24 @@ If the properties for your mobile app fit into different categories,
 use your judgment. If you choose a "bigger" category, you're likely to
 get a more complete test. You can also consult your Technical Account Manager for advice.
 
+## API
 
+To scope an API, you need to specify the number of the following
+characteristics of that asset:
 
+- [User Roles](../glossary#user-role)
+- [(API) Endpoints](../glossary#api-endpoints)
+
+When scoping an Asset, do include every User Role and Endpoint.
+If you forget some, you may sacrifice quality in penetration testing.
+
+Cobalt subdivides the number of User Roles and Dynamic Pages into the following categories:
+
+|               | Extra Small | Small   | Medium   | Large    | Extra Large |
+|---------------|-------------|---------|----------|----------|-------------|
+| User Roles    | 1           | 1 - 2   | 3 - 5    | 5 - 7    | > 8         |
+| Endpoints     | 0 - 74      | 75-149  | 150-224  | 225-299  | 300-374     |
+
+If your numbers of User Roles and Dynamic Pages fit into different categories,
+use your judgment. If you choose a "bigger" category, you're likely to
+get a more complete test. You can also consult your Technical Account Manager for advice.

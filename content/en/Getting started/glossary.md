@@ -12,12 +12,30 @@ terms defined by the Internet Engineering Task Force. Use this glossary to suppl
 {{% /pageinfo %}}
 
 
+## API Endpoint
+
+An endpoint is typically a URL used to allow two software applications to communicate with each other.
+For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://docs.cobalt.io`.
+
+Some endpoints include additional information that may make them seem different. For example, the
+following two URLs are in fact the same endpoint, as the content after the ampersand (&) describes an
+action on data sent from that URL:
+
+- https://www.example.com/endpoint1&_prettyPrint=true
+- https://www.example.com/endpoint1&_prettyPrint=false
+
 ## Asset
 
 For pentesting, an asset is a software component of value. Cobalt can perform pentests on assets in the
 following categories:
 
 {{% asset-categories %}}
+
+## Dynamic Page
+
+Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
+that can be customized, either through an application server (server-side) or through code such as
+JavaScript running in the browser (client-side).
 
 ## Mobile Screen
 
@@ -27,12 +45,6 @@ screens fall into several archetypes.
 
 You may have multiple screens of an archtype. For example, you may have 10 mobile screens for
 the onboarding archtype.
-
-## Dynamic Page
-
-Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
-that can be customized, either through an application server (server-side) or through code such as
-JavaScript running in the browser (client-side).
 
 ## User Role
 
