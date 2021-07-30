@@ -46,6 +46,10 @@ screens fall into several archetypes.
 You may have multiple screens of an archtype. For example, you may have 10 mobile screens for
 the onboarding archtype.
 
+## Single-page Application
+
+For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
+
 ## User Role
 
 A User Role specifies the permissions or privileges associated with a user. Common examples of User Roles include:
