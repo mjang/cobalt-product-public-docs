@@ -46,6 +46,11 @@ screens fall into several archetypes.
 You may have multiple screens of an archtype. For example, you may have 10 mobile screens for
 the onboarding archtype.
 
+## Operations Security (OpSec)
+
+Operations Security, commonly known as OpSec, identifes critical information, and if/how it
+may be used by opponents or enemies. OpSec measures can reduce security risks.
+
 ## Single-page Application
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
