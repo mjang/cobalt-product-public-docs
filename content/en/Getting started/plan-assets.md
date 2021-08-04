@@ -35,26 +35,9 @@ The following sections can help you understand the following characteristics of 
 - How to scope an asset
 - The coverage you need
 
-## Coverage Levels
-
-Cobalt includes the following coverage levels for each asset. The number of credits that we recommend
-varies by coverage level:
-
-| Coverage    | Size                                                              |
-|-------------|-------------------------------------------------------------------|
-| Extra Light | Covers up to two features.                                        |
-| Light       | Sufficient for most general compliance test functionality.        |
-| Standard    | Normal recommended coverage level for compliance tests.           |
-| Large       | Extended coverage for critical assets with complex functionality. |
-| Extra Large | Comprehensive test for assets with complex functionality.         |
-
-These are general guidelines. Every situation is unique. You may choose more (or less)
-rigorous testing levels.
-
-{{% alert title="Note" color="note" %}}
-By default, if you specify an "Extra Small" Asset size, we give you an "Extra Light"
-coverage level. You can specify higher or lower coverage levels.
-{{% /alert %}}
+Scoping is a complex topic. The following sections include basic guidance on how to scope
+each type of Asset. For more information on how scoping and coverage levels drive pentest
+credit recommendations, see our [Scoping Guide](../scoping-guide).
 
 ## Web
 
