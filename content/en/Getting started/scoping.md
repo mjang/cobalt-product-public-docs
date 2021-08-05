@@ -56,14 +56,15 @@ rigorous testing levels.
 {{% alert title="Note" color="note" %}}
 By default, if you specify an "Extra Small" Asset size, we give you a "Standard"
 coverage level. Our algorithms reduce the number of credits for "Light" (-1) and "Extra
-Light" (-2) coverage.
+Light" (-2) coverage. And that algorithm would reduce the number of credits for a 
+Small/Extra Small asset to an unacceptable level.
 {{% /alert %}}
 
 The following table specifies the number of _default_ credits associated with
 different asset sizes and coverage levels:
 
 |             | Extra Light | Light | Standard | Large | Extra Large |
-|-------------|-------------|-------|----------|-------|-------------|
+|-------------|:-----------:|:-----:|:--------:|:-----:|:-----------:|
 | Extra Small | X           | X     | 1        | 2     | 3           |
 | Small       | X           | 1     | 2        | 3     | 4           |
 | Medium      | 1           | 2     | 3        | 4     | 5           |

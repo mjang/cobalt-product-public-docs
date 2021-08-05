@@ -31,6 +31,14 @@ following categories:
 
 {{% asset-categories %}}
 
+## CIS (Center for Internet Security)
+
+The Center for Internet Security is an independent non-profit organization which develops and
+refines best practice security solutions.
+
+One of the test criteria used by our pentesters is [CIS Controls v8](https://www.cisecurity.org/controls/v8/),
+released in 2021.
+
 ## Dynamic Page
 
 Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
@@ -50,6 +58,11 @@ the onboarding archtype.
 
 Operations Security, commonly known as OpSec, identifes critical information, and if/how it
 may be used by opponents or enemies. OpSec measures can reduce security risks.
+
+## SANS Institute
+
+Original sponsor of a set of standards for testing networks. SANS stands for SysAdmin, Audit,
+Network, and Security. The SANS Top 20 has been migrated to CIS Controls Version 8.
 
 ## Single-page Application
 
