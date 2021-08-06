@@ -3,7 +3,6 @@
 title: "Summary"
 linkTitle: "Overview"
 weight: 10
-type: docs
 menu:
   main:
     weight: 20

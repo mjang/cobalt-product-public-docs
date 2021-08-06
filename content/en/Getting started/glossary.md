@@ -31,6 +31,16 @@ following categories:
 
 {{% asset-categories %}}
 
+## Application Security Verification Standard (ASVS)
+
+The [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
+relates to pentests of web application technical security controls.
+
+## Black Box Testing
+
+Where the pentester has no knowledge of the internal details of the asset. Contrast
+with gray box and black box testing.
+
 ## CIS (Center for Internet Security)
 
 The Center for Internet Security is an independent non-profit organization which develops and
@@ -45,6 +55,11 @@ Web applications typically include _static_ and _dynamic_ web pages. A Dynamic P
 that can be customized, either through an application server (server-side) or through code such as
 JavaScript running in the browser (client-side).
 
+## Gray Box Testing
+
+Where the pentester has limited knowledge of the internal details of the asset. Contrast
+with white box and black box testing.
+
 ## Mobile Screen
 
 A mobile screen is what you see on a mobile device, such as an iPhone or an Android system. As
@@ -53,6 +68,11 @@ screens fall into several archetypes.
 
 You may have multiple screens of an archtype. For example, you may have 10 mobile screens for
 the onboarding archtype.
+
+## Open Source Security Testing Methodology Manual (OSSTMM)
+
+Operations Security, commonly known as OpSec, identifes critical information, and if/how it
+may be used by opponents or enemies. OpSec measures can reduce security risks.
 
 ## Operations Security (OpSec)
 
@@ -80,6 +100,11 @@ A User Role specifies the permissions or privileges associated with a user. Comm
 - Guest
 
 This is not a comprehensive list. When scoping an Asset, it's important to include a complete number of user roles. If you miss a user role, you may sacrifice quality in penetration testing. 
+
+## White Box Testing
+
+Where the pentester has full knowledge of the internal details of the asset. Contrast
+with black box and gray box testing.
 
 
 ### Header 3
