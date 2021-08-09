@@ -60,6 +60,14 @@ JavaScript running in the browser (client-side).
 Where the pentester has limited knowledge of the internal details of the asset. Contrast
 with white box and black box testing.
 
+## Jump Box
+
+Also known as a jump host or a jump server, a jump box is a system (typically) on an internal
+network or a DMZ, used to access and manage devices in a separate security zone.
+
+Where the pentester has limited knowledge of the internal details of the asset. Contrast
+with white box and black box testing.
+
 ## Mobile Screen
 
 A mobile screen is what you see on a mobile device, such as an iPhone or an Android system. As
@@ -71,8 +79,9 @@ the onboarding archtype.
 
 ## Open Source Security Testing Methodology Manual (OSSTMM)
 
-Operations Security, commonly known as OpSec, identifes critical information, and if/how it
-may be used by opponents or enemies. OpSec measures can reduce security risks.
+The [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf) tests the operational security of physical
+locations, human interactions, and all communications on the network, whether they be wireless,
+wired, analog, or digital.
 
 ## Operations Security (OpSec)
 

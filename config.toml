@@ -6,6 +6,8 @@ enableRobotsTXT = true
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
 
+# Table of 
+
 # Will give values to .Lastmod etc.
 enableGitInfo = false
 
@@ -156,4 +158,4 @@ footer_about_disable = true
 #        desc = "Discuss development issues around the project"
 
 [params.print]
-disable_toc = true
+#disable_toc = true
