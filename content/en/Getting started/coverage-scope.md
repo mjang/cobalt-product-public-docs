@@ -1,18 +1,18 @@
 ---
-title: "Scoping"
-linkTitle: "Scoping"
+title: "Size and Coverage"
+linkTitle: "Size and Coverage"
 weight: 50
 description: >
-  Proper scoping helps ensure full pentests on your assets.
+  To get a cost-effective but complete pentest, you need the "right" size and coverage for your assets.
 ---
 
 {{% pageinfo %}}
-Scope your assets properly.
+Asset Scoping includes the size of the asset, and the desired test coverage.
 {{% /pageinfo %}}
 
 ## Sizing, Coverage, and Credits
 
-We have standard recommendations for the extent to test your assets. Each recommendation correlates to
+We have standard recommendations for our pentests. Each recommendation correlates to
 a number of credits. 
 
 {{% alert title="Note" color="note" %}}

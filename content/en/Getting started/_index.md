@@ -31,14 +31,16 @@ If the language of software security confuses you, refer to our
 
 Your journey takes you through the following major steps:
 
-1. [Plan Your Asset](../plan-assets). Our pentesters test all kinds of
+1. Accept your email invitation, and [Sign in to Cobalt](./sign-in).
+1. [Define Your Asset](./define-assets). Our pentesters test all kinds of
    assets, from web apps to internal networks.
-1. Create [objectives](../pentest-objectives) for your pentest.
-   - We suggest default objectives based on standards defined by the
+1. Create [objectives](./pentest-objectives) for your pentest.
+   - By default, our pentests are based on standards defined by the
      [Open Web Application Security
      Project (OWASP)](../glossary#open-web-application-security-project) and in
      the [Open Source Security Testing Methodology
      Manual](../glossary/open-source-security-testing-methodology-manual-osstmm).
+   - You're welcome to add and modify the objectives of your choice.
    - We encourage you to include more information about your asset, such as
      architecture and coding language.
 1. Define [limitations](../pentest-methodologies) on your environment.

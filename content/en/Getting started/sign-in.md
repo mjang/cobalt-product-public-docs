@@ -14,7 +14,7 @@ When you get access to Cobalt, you'll first see an email invitation titled:
 
 **Welcome to the Cobalt Platform**
 
-The invite should include a link to 
+The email invite should include a link to Get Started:
 
 <br>
 <div class="mx-auto">
@@ -26,12 +26,16 @@ The invite should include a link to
 Now you can:
 
 1. Select the link.
-1. Create a password. Follow the complexity requirements on the screen.
-   We require passwords with at least:
+1. From the webpage that appears, create a password. Follow the complexity
+   requirements on the screen. We require passwords with at least:
    - Eight (8) characters
-   - One (1) upper letter
+   - One (1) uppercase letter
+   - One (1) lowercase letter
    - One (1) digit
-1. We include a link to our [Terms and Conditions](https://cobalt.io/terms/general).
+   1. We include a link to our [Terms and Conditions](https://cobalt.io/terms/general).
 1. Once you've set a password, you should see the Cobalt app.
 1. The next time you want to sign in, navigate to https://admin.cobalt.io.
    - Your username is your email address.
+
+You can now use the Cobalt app to start setting up a Pentest. The next step is
+to [Define Your Assets](../define-assets).

@@ -1,6 +1,6 @@
 ---
-title: "Plan Your Assets"
-linkTitle: "Plan Your Assets"
+title: "Size Your Assets"
+linkTitle: "Size Your Assets"
 weight: 10
 description: >
   Security professionals perform pentests on your "assets". Collect the info they need.
@@ -10,16 +10,7 @@ description: >
 Help our pentesters test your assets more quickly.
 {{% /pageinfo %}}
 
-To set up a pentest, you'll want to set up the following:
-
-- Asset Image: Use it to help identify what you need from a list of many assets.
-- Asset Title: Set up a descriptive name to attract attention from the best pentesters.
-- Asset Type: Select one of the options described shortly.
-- Asset Scoping: Use the guidance on this page to select a size and scope for your asset.
-- Asset Description: Add information that can help your pentester fully analyze your asset.
-
 For each asset, we provide guidance for each of the following asset categories:  
-
 <!-- Pulls info from the layouts/shortcodes/<name>.html file --> 
 {{% asset-categories %}}
 
@@ -45,10 +36,17 @@ To scope a Web asset, you need to specify the number of the following
 characteristics of that asset:
 
 - [User Roles](../glossary#user-role)
-- [Dynamic Pages](../glossary#dynamic-pages)
+- [Dynamic Pages](../glossary#dynamic-page)
 
-When scoping an Asset, include every User Role and Dynamic Page.
+When scoping an Asset, include every type of User Role and Dynamic Page.
 If you forget some, you may sacrifice quality in penetration testing.
+
+<!-- Review with Sam -->
+{{% alert title="Note" color="note" %}}
+You may not need to include _every_ user role. For example, if you have
+dedicated administrative roles for backups, logs, and printers, that counts
+as one (1) role.
+{{% /alert %}}
 
 Cobalt subdivides the number of User Roles and Dynamic Pages into the following categories:
 
@@ -61,20 +59,13 @@ If your numbers of User Roles and Dynamic Pages fit into different categories,
 use your judgment. If you choose a "bigger" category, you're likely to
 get a more complete test. You can also consult your Technical Account Manager for advice.
 
-As part of our tests for Dynamic Pages, we may also test the backend API endpoints frequently used
-to populate content on those pages.
+As part of our tests for Dynamic Pages, we normally also test the backend API
+endpoints frequently used to populate content on those pages.
 
-### Web Asset Description
-
-In addition, our pentesters need to know more about your Web asset. In the Asset Description, it's helpful
-to include a high-level overview of the application. Pentesters can use also details such as:
-
-- Application type, such as a page-driven website or a [single-page application](https://developer.mozilla.org/en-US/docs/Glossary/SPA)
-- Language, such as JavaScript or Ruby on Rails
-- A list of user roles, including associated permissions/rights
-- Functions or features central to the functionality of your asset
-  - Business risks associated with specific functions or features
-- Special endpoints associated with your dynamic pages
+{{% alert title="Note" color="note" %}}
+If the only APIs in your assets are used to populate dynamic web pages,
+you may not need to set up a separate API asset.
+{{% /alert %}}
 
 ## Mobile
 
