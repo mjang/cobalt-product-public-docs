@@ -12,6 +12,12 @@ terms defined by the Internet Engineering Task Force. Use this glossary to suppl
 {{% /pageinfo %}}
 
 
+## Allowlist
+
+An allowlist explicitly lets identified systems access. In networks, an allowlist can specify IP
+addresses. On many systems, you can find allowlists and denylists in files like
+`/etc/hosts.allow` and `/etc/hosts.deny`.
+
 ## API Endpoint
 
 An endpoint is typically a URL used to allow two software applications to communicate with each other.
@@ -76,6 +82,11 @@ screens fall into several archetypes.
 
 You may have multiple screens of an archtype. For example, you may have 10 mobile screens for
 the onboarding archtype.
+
+## Open Web Application Security Project (OWASP)
+
+[OWASP](https://owasp.org/) is a nonprofit foundation with "Top 10" security
+issues for different asset types, including Web apps, APIs, and Cloud systems.
 
 ## Open Source Security Testing Methodology Manual (OSSTMM)
 
