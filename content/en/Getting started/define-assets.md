@@ -115,14 +115,20 @@ Our app limits uploads to a maximum of 100MB.
 
 If you'd like to upload files in a different format, you can try to:
 
-- Compress the file(s) into one of the noted archive formats
-- Contact your CSM or support@cobalt.io for guidance
+- Compress or archive the file(s) into one of the noted formats.
+  - For example, you can use a "Zip" tool built for your operating system to
+    save your file with a **.zip** file extension.
+- Contact your CSM or support@cobalt.io for guidance.
 
 ## Technology Stack
 
-List key components used to build your asset. If it's software that you're 
-responsible for (Web, API, or Mobile), include the coding languages used to build
-the asset, such as:
+List key components used to build your asset. The following lists provide
+examples. If you use a different coding language, other hardware, or
+another cloud provider, let us know.
+
+If it's software that you're 
+responsible for (Web, API, or Mobile), include the coding languages used to
+build the asset, such as:
 
 - Web: Java, JavaScript (specify framework such as Node.js or React), Go, Python
 - API: Java, Kotlin, Javascript (specify framework such as Node.js or React)
@@ -142,5 +148,8 @@ If your asset is "in the cloud", our pentesters need specifics, such as whether 
 - Database services such as SQL or RDBMS
 - Remote desktops
 - Virtual machines
+- Virtual Private Clouds (VPC)
+- Cloud-based Software Defined Networking (SDN)
 
-Cloud Config: Azure APIs, AWS APIs, VPNs, S3 Buckets, SQL/RDS DB, Remote Desktops, VMs, IAM, VPC, VPC Peering, SDN, etc.
+In addition, we also need to know the cloud system that you're using,
+such as Amazon AWS, Microsoft Azure, or Google Cloud Platform (GCP).
