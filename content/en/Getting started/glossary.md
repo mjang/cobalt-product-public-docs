@@ -133,6 +133,11 @@ in the Cobalt app.
 
 Short for penetration test.
 
+## Pentest as a Service (PtaaS)
+
+Combines manual and human testing with a modern delivery platform to deploy
+penetration testing programs. 
+
 ## Pentest Report
 
 A summary of all vulnerability reports, including observations on positive security measures. Target audience: executives. Includes:
